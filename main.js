@@ -7,10 +7,10 @@ const ctx2 = canvas2.getContext('2d');
 canvas.width = 900;
 canvas.height = 500;
 
-canvas2.width = 150
-canvas2.height = 500
+canvas2.width = 150;
+canvas2.height = 500;
 
-const introMusic = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/angela.mp3')
+const introMusic = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/angela.mp3');
 const music = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/chase.mp3');
 const taxiDriver = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/talkin2.mp3');
 const getOut = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/getout.mp3');
@@ -24,7 +24,7 @@ new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/005.mp3
 new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/006.mp3'),
 ]
 
-music.volume = 0.3
+music.volume = 0.3;
 
 const imageSources = [
     'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/taxi50px.png',       //0
@@ -66,13 +66,13 @@ function checkAllImagesLoaded() {
 function preStart () {
     ctx.drawImage(images[4],0,0);
     introMusic.play();
-    if (keys.Space) gameStart();
+    if (keys.Space === true) gameStart();
         
 }
 
 function gameStart () {
     ctx.drawImage(images[2],0,0);
-    if (keys.Enter) gameLoop();
+    if (keys.Enter === true) gameLoop();
 }
 
 
@@ -471,7 +471,7 @@ function updateCanvas2() {
     ctx2.fillStyle = 'black';
     ctx2.fillRect(0, 0, canvas2.width, canvas2.height);
     ctx2.fillStyle = 'white';
-    ctx2.fillRect(0,0, canvas.width, canvas.height/2)
+    ctx2.fillRect(0,0, canvas2.width, canvas2.height/2)
   // Draw text
     ctx2.font = '50px Showcard Gothic';
     ctx2.fillStyle = 'red';
