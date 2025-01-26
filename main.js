@@ -282,8 +282,8 @@ class Fare {
             ctx.drawImage(this.image, this.currentLocation.x -10, this.currentLocation.y - 20, 41, 60)
             ctx.save();
             ctx.fillStyle = 'white';
-            ctx.font = '18px Showcard Gothic'
-            ctx.fillText('TAXI!!!', this.currentLocation.x - 27,this.currentLocation.y - 30);
+            ctx.font = '18px Impact'
+            ctx.fillText('TAXI!!!', this.currentLocation.x - 15,this.currentLocation.y - 30);
             ctx.restore();
         } else if (this.greenState) {
             ctx.save();
@@ -303,8 +303,8 @@ class Fare {
             ctx.fill();
             ctx.closePath();
             ctx.fillStyle = 'white';
-            ctx.font = '18px Showcard Gothic'
-            ctx.fillText('Deliver', this.currentLocation.x - 35,this.currentLocation.y - 25);
+            ctx.font = '18px Impact'
+            ctx.fillText('Deliver', this.currentLocation.x - 18,this.currentLocation.y - 25);
             ctx.restore();
         }
         
@@ -473,16 +473,16 @@ function updateCanvas2() {
     ctx2.fillStyle = 'white';
     ctx2.fillRect(0,0, canvas2.width, canvas2.height/2)
   // Draw text
-    ctx2.font = '50px Showcard Gothic';
+    ctx2.font = '50px Impact';
     ctx2.fillStyle = 'red';
     ctx2.fillText(`${score}`, 20, 110);
     ctx2.fillText(`${timeRemaining}`, 40, 230);
-    ctx2.font = '50px Showcard Gothic';
+    ctx2.font = '50px Impact';
     ctx2.fillStyle = 'black';
     ctx2.fillText(`Score`, 3, 50);
     ctx2.fillText(`Time`, 17, 170);
 
-    ctx2.font = '50px Showcard Gothic';
+    ctx2.font = '50px Impact';
     ctx2.fillStyle = 'yellow';
     ctx2.fillText('NEW', 20, 340);
     ctx2.fillText('YORK', 5, 400);
