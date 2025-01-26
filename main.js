@@ -10,35 +10,35 @@ canvas.height = 500;
 canvas2.width = 150
 canvas2.height = 500
 
-const introMusic = new Audio('audio/angela.mp3')
-const music = new Audio('audio/chase.mp3');
-const taxiDriver = new Audio('audio/talkin2.mp3');
-const getOut = new Audio('audio/getout.mp3');
+const introMusic = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/angela.mp3')
+const music = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/chase.mp3');
+const taxiDriver = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/talkin2.mp3');
+const getOut = new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/getout.mp3');
 
 const crashSounds = [
-new Audio('audio/001.mp3'),
-new Audio('audio/002.mp3'),
-new Audio('audio/003.mp3'),
-new Audio('audio/004.mp3'),
-new Audio('audio/005.mp3'),
-new Audio('audio/006.mp3'),
+new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/001.mp3'),
+new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/002.mp3'),
+new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/003.mp3'),
+new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/004.mp3'),
+new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/005.mp3'),
+new Audio('https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/006.mp3'),
 ]
 
 music.volume = 0.3
 
 const imageSources = [
-    'http://localhost:8000/taxi50px.png',       //0
-    'http://localhost:8000/building1.png',      //1
-    'http://localhost:8000/intro.png',          //2
-    'http://localhost:8000/fare_collect.png',   //3
-    'http://localhost:8000/preintro.png',       //4
-    'http://localhost:8000/outro.png',          //5
-    'http://localhost:8000/car1.png',           //6
-    'http://localhost:8000/car2.png',           //7
-    'http://localhost:8000/car3.png',           //8
-    'http://localhost:8000/car4.png',           //9
-    'http://localhost:8000/car5.png',           //10
-    'http://localhost:8000/car6.png',           //11
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/taxi50px.png',       //0
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/building1.png',      //1
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/intro.png',          //2
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/fare_collect.png',   //3
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/preintro.png',       //4
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/outro.png',          //5
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/car1.png',           //6
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/car2.png',           //7
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/car3.png',           //8
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/car4.png',           //9
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/car5.png',           //10
+    'https://raw.githubusercontent.com/Swillycoder/Taxidriver/main/car6.png',           //11
     ];
     
 const images = [];
